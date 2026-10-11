@@ -1,10 +1,21 @@
 ## Hey👋! I'm vsquare
 
+<p>
+   <img src="https://readme-typing-svg.demolab.com?width=420&pause=500&color=00ff88&vCenter=true&size=24&tracker=false&repeat=true&showCursor=true&cursorColor=00ff88&text=AI+%2B+Healthcare+Enthusiast,Neuro+AI+Researcher,ML+Developer,Student+of+Learning" alt="Typing Animation" />
+</p>
+
+![Daily Quote](https://readme-typing-svg.demolab.com?query=Never%20stop%20learning&pause=3000)   
+
+
 I build things that make learning feel less like a chore and more like a conversation — and I'm now chasing the same idea into healthcare.
+
+---
 
 ### 🎯 What I'm working on
 
 Right now, I'm exploring **AI + Healthcare**, with a particular interest in **brain and neuro applications** — think models that can assist in early detection, diagnosis support, or personalized neuro-rehabilitation. Before that, I built an AI chatbot that listens, summarizes, and quizzes you — a study buddy that never gets tired of repeating the same topic.
+
+---
 
 ### 🧠 What I care about
 
@@ -13,16 +24,58 @@ Right now, I'm exploring **AI + Healthcare**, with a particular interest in **br
 - Clean code, clean architecture, and projects I'd actually use myself
 - The sweet spot where NLP meets real-world UX
 
-### 🛠 Stack
+---
 
-Python · PyTorch · Hugging Face Transformers · React · Node.js · MedPy · NiBabel · OpenCV · Speech-to-Text APIs
+### 🛠 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/-Hugging%20Face-F9DC5E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/-MedPy-0096E0?style=for-the-badge&logo=python&logoColor=white" alt="MedPy" />
+  <img src="https://img.shields.io/badge/-NiBabel-0096E0?style=for-the-badge&logo=python&logoColor=white" alt="NiBabel" />
+  <img src="https://img.shields.io/badge/-OpenCV-5C2EE9?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+</p>
+
+---
 
 ### 🚀 Projects
 
-| Project | What it does |
-|---------|-------------|
-| [AI Chatbot for Enhanced Learning Through Speech Summarization and Interactive Quizzing](https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing) | Speech-based summarization + interactive quizzing |
-| [Explainable Prognostic modeling for Glioma using interpretable AI and Machine Learning techniques](https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques) | AI-assisted analysis for Low Grade Glioma and High Grade Glioma  |
+<table>
+  <tr>
+    <td width="50%">
+      <b>🧠 AI Chatbot for Enhanced Learning</b><br/>
+      Speech-based summarization + interactive quizzing for students<br/>
+      <a href="https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing">→ View Repo</a>
+    </td>
+    <td width="50%">
+      <b>🔬 Explainable Prognostic Modeling for Glioma</b><br/>
+      Interpretable AI/ML for Low & High Grade Glioma prognosis<br/>
+      <a href="https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques">→ View Repo</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 GitHub Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vsquare08&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+</p>
+
+---
+
+<img src="/snake.svg" alt="Snake" />
+
+---
 <!--| [NeuroAI-Assist](https://github.com/vsquare08/NeuroAI-Assist) | AI-assisted brain imaging analysis for early anomaly detection | -->
 
 ### 📌 Fun facts
@@ -32,6 +85,20 @@ Python · PyTorch · Hugging Face Transformers · React · Node.js · MedPy · N
 - I read neuro papers at night and regret my sleep schedule in the morning
 - Currently optimizing my commit streak and my caffeine intake simultaneously
 
+---
+
+<!--### 📫 Let's connect
+
+<p>
+  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D44C5E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+---   -->
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=vsquare08.vsquare08" alt="Visitor Badge" />
+</div>
 
 <!--### 📫 Let's connect
 
