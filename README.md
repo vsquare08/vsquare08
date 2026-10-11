@@ -81,7 +81,7 @@ I read neuro papers at night and regret it in the morning.
 
   </picture>
 </p>
-![Snake animation](https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg)
+
 
 
 **🧩 Quick brain quiz.** Think of an answer, then click to check.
