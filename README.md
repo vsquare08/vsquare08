@@ -1,7 +1,7 @@
 ## Hey👋! I'm vsquare
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?width=600&pause=500&color=00ff88&vCenter=true&size=19&repeat=true&showCursor=true&cursorColor=00ff88&lines=AI+%2B+Healthcare+Enthusiast,Neuro+AI+Researcher,ML+Developer" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?width=600&pause=500&color=00ff88&vCenter=true&size=18&repeat=true&showCursor=true&cursorColor=00ff88&lines=AI+%2B+Healthcare+Enthusiast,Neuro+AI+Researcher,ML+Developer" alt="Typing Animation" />
 </p>   
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=github_dark)](https://github.com/cheehwatang/github-readme-daily-quotes)
