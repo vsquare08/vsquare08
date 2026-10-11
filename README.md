@@ -78,9 +78,11 @@ I read neuro papers at night and regret it in the morning.
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Snake eating my contribution graph" src="https://github.com/vsquare08/vsquare08/blob/main/.github/workflows/snake.yml" />
+
   </picture>
 </p>
+![Snake animation](https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg)
+
 
 **🧩 Quick brain quiz.** Think of an answer, then click to check.
 
