@@ -105,19 +105,19 @@ A clinician has to understand and trust <i>why</i> a model gave an output. An un
 <br/>
 
 ## My GitHub, live
-
+<!--
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=090c24&title_color=5ce1e6&text_color=eef0ff&icon_color=ffb703" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&hide_border=true&bg_color=090c24&title_color=5ce1e6&text_color=eef0ff" alt="Top languages" />
 </p>
-
+-->
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=vsquare08&hide_border=true&background=090C24&ring=FFB703&fire=FF5C7A&currStreakLabel=5CE1E6&currStreakNum=EEF0FF&sideLabels=EEF0FF&sideNums=EEF0FF&dates=9AA0CF" alt="Contribution streak" />
 </p>
-
+<!--
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vsquare08&bg_color=090c24&color=5ce1e6&line=ffb703&point=ff5c7a&area=true&area_color=5ce1e6&hide_border=true" alt="Contribution activity graph" />
-</p>
+</p>  -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/pulse.svg" alt="" width="100%" />
@@ -129,8 +129,8 @@ I'm happy to talk about AI in healthcare, learning tools, or which paper kept yo
 
 <!-- TODO: replace your-profile and your@email.com with your real links -->
 <p>
-  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-ff5c7a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+ <!-- <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>  -->
+  <a href="mailto:245502342+vsquare08@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-ff5c7a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <sub>Fun fact: I debug by talking to my code out loud, and it helps more than you'd think.</sub>
