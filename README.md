@@ -60,7 +60,7 @@ Right now, I'm exploring **AI + Healthcare**, with a particular interest in **br
 
 ---
 
-### 📊 GitHub Stats
+<!--- ### 📊 GitHub Stats
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
@@ -70,7 +70,7 @@ Right now, I'm exploring **AI + Healthcare**, with a particular interest in **br
 <p>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vsquare08&theme=tokyonight&hide_border=true" alt="Streak Stats" />
 </p>
-
+-->
 ---
 
 <img src="/snake.svg" alt="Snake" />
