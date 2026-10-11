@@ -21,8 +21,9 @@ Python · PyTorch · Hugging Face Transformers · React · Node.js · MedPy · N
 
 | Project | What it does |
 |---------|-------------|
-| [AI Chatbot for Enhanced Learning](https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing) | Speech-based summarization + interactive quizzing |
-| [NeuroAI-Assist](https://github.com/vsquare08/NeuroAI-Assist) | AI-assisted brain imaging analysis for early anomaly detection |
+| [AI Chatbot for Enhanced Learning Through Speech Summarization and Interactive Quizzing](https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing) | Speech-based summarization + interactive quizzing |
+| [Explainable Prognostic modeling for Glioma using interpretable AI and Machine Learning techniques](https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques) | AI-assisted analysis for Low Grade Glioma and High Grade Glioma  |
+<!--| [NeuroAI-Assist](https://github.com/vsquare08/NeuroAI-Assist) | AI-assisted brain imaging analysis for early anomaly detection | -->
 
 ### 📌 Fun facts
 
