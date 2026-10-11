@@ -1,175 +1,136 @@
-<!-- ========== ANIMATED HEADER ========== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,100:0096e0&height=230&section=header&text=Hey%20%F0%9F%91%8B%20I'm%20vsquare&fontSize=52&fontColor=0d1117&animation=fadeIn&fontAlignY=38&desc=Building%20AI%20that%20learns%20with%20you%20and%20heals%20with%20you&descSize=18&descAlignY=60&descColor=0d1117" alt="Header banner" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/header.svg" alt="vsquare: I build AI that helps people learn, and now AI that helps with the brain" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&repeat=true&width=700&height=50&lines=AI+%2B+Healthcare+Enthusiast+%F0%9F%A9%BA;Neuro+AI+Researcher+%F0%9F%A7%A0;ML+Developer+%F0%9F%90%8D;Turning+brain+scans+into+insight+%E2%9A%A1;Caffeine+%E2%86%92+Code+%E2%86%92+Commit+%E2%98%95" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=5CE1E6&center=true&vCenter=true&repeat=true&width=620&height=45&lines=Neuro+AI+researcher+in+the+making;Explainable+ML+for+healthcare;NLP+that+feels+like+a+conversation;Debugging+out+loud%2C+one+commit+at+a+time" alt="Typing animation" />
 </div>
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=vsquare08.vsquare08&left_color=0d1117&right_color=00ff88" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Focus-Neuro%20AI-00ff88?style=flat-square&labelColor=0d1117" alt="Focus" />
-  <img src="https://img.shields.io/badge/Status-Learning%20%26%20Building-0096E0?style=flat-square&labelColor=0d1117" alt="Status" />
-</div>
+<p align="center">
+  <a href="https://vsquare08.github.io/vsquare08/game/"><img src="https://img.shields.io/badge/PLAY-Neuron%20Dash-ffb703?style=for-the-badge&labelColor=090c24" alt="Play Neuron Dash" /></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=vsquare08.vsquare08&left_color=090c24&right_color=5ce1e6" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/pulse.svg" alt="" width="100%" />
+</p>
+
+## A little about me
+
+I like building things that make learning feel like a conversation instead of a chore. My first big project was a chatbot that listens to a lecture, summarizes it, and then quizzes you on it. It never gets tired of repeating a topic.
+
+Now I'm taking the same idea into healthcare, with a focus on the brain. I'm interested in models that can help with early detection, support a diagnosis, or personalize neuro-rehabilitation. In healthcare a wrong output is a risk, not just a bug, so I care a lot about making models explainable and reliable.
+
+I read neuro papers at night and regret it in the morning.
 
 <br/>
 
-I build things that make learning feel less like a chore and more like a conversation. Now I'm chasing the same idea into healthcare.
-
----
-
-## 🎯 What I'm working on
-
-| | |
-|---|---|
-| 🔭 **Now** | AI + Healthcare, with a focus on **brain and neuro applications**: early detection, diagnosis support, and personalized neuro-rehabilitation |
-| 🌱 **Before** | An AI chatbot that listens, summarizes, and quizzes you, a study buddy that never gets tired of repeating the same topic |
-| 🧪 **Exploring** | Explainable ML for tumor prognosis and brain imaging pipelines |
-
----
-
-## 🧠 What I care about
-
-- 🎓 **AI that actually helps people learn**, not demos that only impress in a pitch deck
-- 🏥 **Reliable AI for healthcare**, where a wrong output is not just a bug, it's a risk
-- 🧼 Clean code, clean architecture, and projects I'd actually use myself
-- 💬 The sweet spot where NLP meets real-world UX
-
----
-
-## 🛠 Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,react,nodejs,opencv,git,github,vscode&perline=8" alt="Core skills" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-Hugging%20Face-F9DC5E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/-MedPy-0096E0?style=for-the-badge&logo=python&logoColor=white" alt="MedPy" />
-  <img src="https://img.shields.io/badge/-NiBabel-0096E0?style=for-the-badge&logo=python&logoColor=white" alt="NiBabel" />
-</p>
-
----
-
-## 🚀 Featured projects
+## What I'm building
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 AI Chatbot for Enhanced Learning</h3>
-      Speech-based summarization plus interactive quizzing for students.<br/><br/>
-      <img src="https://img.shields.io/badge/NLP-00ff88?style=flat-square&labelColor=0d1117" alt="NLP" />
-      <img src="https://img.shields.io/badge/Speech-0096E0?style=flat-square&labelColor=0d1117" alt="Speech" />
-      <img src="https://img.shields.io/badge/EdTech-F9DC5E?style=flat-square&labelColor=0d1117" alt="EdTech" /><br/><br/>
-      <a href="https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing">→ View repo</a>
+      Speaks, listens, summarizes, and quizzes. Built for students who learn best by talking things through.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/NLP-5ce1e6?style=flat-square&labelColor=090c24" alt="NLP" />
+      <img src="https://img.shields.io/badge/Speech-ffb703?style=flat-square&labelColor=090c24" alt="Speech" />
+      <img src="https://img.shields.io/badge/Education-ff5c7a?style=flat-square&labelColor=090c24" alt="Education" />
+      <br/><br/>
+      <a href="https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing"><b>Open the repo →</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🔬 Explainable Prognostic Modeling for Glioma</h3>
-      Interpretable AI/ML for Low Grade and High Grade Glioma prognosis.<br/><br/>
-      <img src="https://img.shields.io/badge/Explainable%20AI-00ff88?style=flat-square&labelColor=0d1117" alt="Explainable AI" />
-      <img src="https://img.shields.io/badge/Healthcare-EE4C2C?style=flat-square&labelColor=0d1117" alt="Healthcare" />
-      <img src="https://img.shields.io/badge/ML-0096E0?style=flat-square&labelColor=0d1117" alt="ML" /><br/><br/>
-      <a href="https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques">→ View repo</a>
+      <h3>🔬 Explainable Prognosis for Glioma</h3>
+      Interpretable AI and ML for Low Grade and High Grade Glioma prognosis, so a clinician can see why a model said what it said.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Explainable%20AI-5ce1e6?style=flat-square&labelColor=090c24" alt="Explainable AI" />
+      <img src="https://img.shields.io/badge/Healthcare-ffb703?style=flat-square&labelColor=090c24" alt="Healthcare" />
+      <img src="https://img.shields.io/badge/Machine%20Learning-ff5c7a?style=flat-square&labelColor=090c24" alt="Machine Learning" />
+      <br/><br/>
+      <a href="https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques"><b>Open the repo →</b></a>
     </td>
   </tr>
 </table>
 
-<sub>⚠️ My healthcare projects are for research and learning. They are not medical advice or diagnostic tools.</sub>
+<sub>My healthcare work is for research and learning. It is not medical advice or a diagnostic tool.</sub>
 
----
+<br/>
 
-## 📊 GitHub stats
+## Tools I use
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,react,nodejs,git,github,vscode&perline=8" alt="Python, PyTorch, OpenCV, React, Node.js, Git, GitHub, VS Code" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Hugging%20Face-F9DC5E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/MedPy-0096E0?style=for-the-badge&logo=python&logoColor=white" alt="MedPy" />
+  <img src="https://img.shields.io/badge/NiBabel-0096E0?style=for-the-badge&logo=python&logoColor=white" alt="NiBabel" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=vsquare08&theme=tokyonight&hide_border=true" alt="Streak stats" />
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vsquare08&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area=true&area_color=00ff88&hide_border=true" alt="Activity graph" />
-</p>
+## Take a break and play
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vsquare08&theme=onedark&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies" />
-</p>
+**⚡ [Neuron Dash](https://vsquare08.github.io/vsquare08/game/)** is a small game I made for this page. Neurons light up, rings close in, and you tap each one at the right moment. The longer you wait, the more points you get, but wait too long and you lose a signal. It works on phones too.
 
----
-
-## 🎮 Play with me
-
-### 🐍 Contribution snake
-Every green square is food. Watch it eat my commits.
+**🐍 The contribution snake** eats my commit squares. Run `git commit` more and it has more to eat.
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
-### 🧩 Brain quiz (click to reveal each answer)
+**🧩 Quick brain quiz.** Think of an answer, then click to check.
 
 <details>
-<summary><b>Q1.</b> Which brain structure is a key hub for forming new memories?</summary>
+<summary>Which brain structure is a key hub for forming new memories?</summary>
 <br/>
-<b>Hippocampus.</b> Damage to it makes forming new long-term memories very hard.
+The <b>hippocampus</b>. Damage to it makes forming new long-term memories very hard.
 </details>
 
 <details>
-<summary><b>Q2.</b> Which file format does NiBabel mainly read for brain MRI scans?</summary>
+<summary>Which file format does NiBabel mainly read for brain MRI scans?</summary>
 <br/>
-<b>NIfTI</b> (<code>.nii</code> or <code>.nii.gz</code>). NiBabel also reads related neuroimaging formats.
+<b>NIfTI</b>, with the <code>.nii</code> or <code>.nii.gz</code> extension.
 </details>
 
 <details>
-<summary><b>Q3.</b> Why does explainability matter more in healthcare ML than in a movie recommender?</summary>
+<summary>Why does explainability matter more in healthcare ML than in a movie recommender?</summary>
 <br/>
-Because a clinician has to understand and trust <i>why</i> a model gave an output. A wrong or unexplained prediction can affect a real patient.
+A clinician has to understand and trust <i>why</i> a model gave an output. An unexplained wrong prediction can affect a real patient. A wrong movie suggestion costs you two hours.
 </details>
 
-<details>
-<summary><b>Q4.</b> Is this profile README a love letter to future contributors?</summary>
-<br/>
-Yes. 💚
-</details>
-
----
-
-## 📌 Fun facts
-
-<details>
-<summary>Click to expand 🎲</summary>
 <br/>
 
-- 🗣️ I debug by talking to the code out loud (it helps more than you'd think)
-- 💌 I believe a good README is a love letter to future contributors
-- 🌙 I read neuro papers at night and regret my sleep schedule in the morning
-- ☕ Currently optimizing my commit streak and my caffeine intake simultaneously
+## My GitHub, live
 
-</details>
-
----
-
-<!--- ## 📫 Let's connect
-
-<!-- TODO: replace your-profile and your@email.com, then keep this block 
 <p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=090c24&title_color=5ce1e6&text_color=eef0ff&icon_color=ffb703" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&hide_border=true&bg_color=090c24&title_color=5ce1e6&text_color=eef0ff" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=vsquare08&hide_border=true&background=090C24&ring=FFB703&fire=FF5C7A&currStreakLabel=5CE1E6&currStreakNum=EEF0FF&sideLabels=EEF0FF&sideNums=EEF0FF&dates=9AA0CF" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vsquare08&bg_color=090c24&color=5ce1e6&line=ffb703&point=ff5c7a&area=true&area_color=5ce1e6&hide_border=true" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/pulse.svg" alt="" width="100%" />
+</p>
+
+## Say hi
+
+I'm happy to talk about AI in healthcare, learning tools, or which paper kept you up last night.
+
+<!-- TODO: replace your-profile and your@email.com with your real links -->
+<p>
   <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D44C5E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
---->
-<p align="center">
-  <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
-    <img src="https://readme-daily-quotes.vercel.app/api?theme=github_dark" alt="Daily quote" />
-  </a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-ff5c7a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<!-- ========== ANIMATED FOOTER ========== -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0096e0,100:00ff88&height=120&section=footer" alt="Footer wave" />
-</div>
+<sub>Fun fact: I debug by talking to my code out loud, and it helps more than you'd think.</sub>
