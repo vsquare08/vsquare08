@@ -1,11 +1,10 @@
 ## Hey👋! I'm vsquare
 
 <p>
-   <img src="https://readme-typing-svg.demolab.com?width=420&pause=500&color=00ff88&vCenter=true&size=24&tracker=false&repeat=true&showCursor=true&cursorColor=00ff88&text=AI+%2B+Healthcare+Enthusiast,Neuro+AI+Researcher,ML+Developer,Student+of+Learning" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?width=420&pause=500&color=00ff88&vCenter=true&size=24&repeat=true&showCursor=true&cursorColor=00ff88&lines=AI+%2B+Healthcare+Enthusiast,Neuro+AI+Researcher,ML+Developer,Student+of+Learning" alt="Typing Animation" />
 </p>
 
-![Daily Quote](https://readme-typing-svg.demolab.com?query=Never%20stop%20learning&pause=3000)   
-
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=github_dark)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 I build things that make learning feel less like a chore and more like a conversation — and I'm now chasing the same idea into healthcare.
 
@@ -72,8 +71,10 @@ Right now, I'm exploring **AI + Healthcare**, with a particular interest in **br
 </p>
 -->
 ---
+### 🐍 Contribution Snake
 
-<img src="/snake.svg" alt="Snake" />
+![Snake animation](https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg)
+
 
 ---
 <!--| [NeuroAI-Assist](https://github.com/vsquare08/NeuroAI-Assist) | AI-assisted brain imaging analysis for early anomaly detection | -->
