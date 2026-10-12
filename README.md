@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/header.svg" alt="vsquare: I build AI that helps people learn, and now AI that helps with the brain" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/header.svg" alt="vsquare: I build AI that helps people learn, and now AI that helps with the brain" width="100%" />
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/strip.svg" alt="Neuro AI researcher in the making. Explainable ML for healthcare. NLP that feels like a conversation." width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/strip.svg" alt="Neuro AI researcher in the making. Explainable ML for healthcare. NLP that feels like a conversation." width="100%" />
 </p>
 
 <p align="center">
@@ -12,29 +12,29 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/pulse.svg" alt="" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/b-about.svg" alt="About me" width="100%" />
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/c-about.svg" alt="I like building things that make learning feel like a conversation. Now I am taking the same idea into healthcare, with a focus on the brain. I read neuro papers at night and regret it in the morning." width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/b-about.svg" alt="About me" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/c-about.svg" alt="I like building things that make learning feel like a conversation. Now I am taking the same idea into healthcare, with a focus on the brain. I read neuro papers at night and regret it in the morning." width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/b-build.svg" alt="What I am building" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/b-build.svg" alt="What I am building" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/p-chatbot.svg" alt="AI Chatbot for Learning: open the repo" width="49%" /></a>
-  <a href="https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/p-glioma.svg" alt="Explainable Glioma Prognosis: open the repo" width="49%" /></a>
+  <a href="https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/p-chatbot.svg" alt="AI Chatbot for Learning: open the repo" width="49%" /></a>
+  <a href="https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/p-glioma.svg" alt="Explainable Glioma Prognosis: open the repo" width="49%" /></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/c-note.svg" alt="My healthcare work is for research and learning. It is not medical advice or a diagnostic tool." width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/c-note.svg" alt="My healthcare work is for research and learning. It is not medical advice or a diagnostic tool." width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/b-tools.svg" alt="Tools I use" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/b-tools.svg" alt="Tools I use" width="100%" />
 </p>
 
 <p align="center">
@@ -46,8 +46,8 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/b-play.svg" alt="Take a break and play" width="100%" />
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/c-play.svg" alt="Neuron Dash is a small game I made for this page. The snake below eats my contribution squares." width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/b-play.svg" alt="Take a break and play" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/c-play.svg" alt="Neuron Dash is a small game I made for this page. The snake below eats my contribution squares." width="100%" />
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@
 </details>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/b-live.svg" alt="My GitHub, live" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/b-live.svg" alt="My GitHub, live" width="100%" />
 </p>
 
 <p align="center">
@@ -91,12 +91,12 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/pulse.svg" alt="" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/b-hi.svg" alt="Say hi" width="100%" />
-  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/assets/c-hi.svg" alt="I am happy to talk about AI in healthcare, learning tools, or which paper kept you up last night." width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/b-hi.svg" alt="Say hi" width="100%" />
+  <img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/c-hi.svg" alt="I am happy to talk about AI in healthcare, learning tools, or which paper kept you up last night." width="100%" />
 </p>
 
 <!-- TODO: replace your-profile and your@email.com with your real links -->
