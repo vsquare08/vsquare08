@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0a0f1e">
+<title>vsquare | AI for learning and for the brain</title>
+<meta name="description" content="vsquare builds AI that helps people learn, and now AI for healthcare with a focus on the brain.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0f1e;
+    --ink-raised: #10172b;
+    --line: #232d4a;
+    --text: #e9edf7;
+    --muted: #8f9bb7;
+    --signal: #5ce1e6;
+    --amber: #ffb703;
+    --coral: #ff5c7a;
+    --display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --body: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --wrap: 1040px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 18px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid var(--signal); outline-offset: 3px; border-radius: 4px; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 28px; }
+
+  /* ---------- nav ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 10;
+    background: linear-gradient(var(--ink) 55%, rgba(10,15,30,0));
+    padding-top: env(safe-area-inset-top);
+  }
+  .nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 64px; }
+  .logo { font-family: var(--display); font-weight: 700; font-size: 22px; text-decoration: none; letter-spacing: -0.01em; }
+  .nav ul { display: flex; gap: 26px; list-style: none; margin: 0; padding: 0; font-size: 15px; }
+  .nav a.l { text-decoration: none; color: var(--muted); transition: color .15s; }
+  .nav a.l:hover { color: var(--text); }
+
+  /* ---------- hero ---------- */
+  .hero { position: relative; padding: clamp(56px, 11vh, 120px) 0 0; overflow: hidden; }
+  .hero h1 {
+    font-family: var(--display); font-weight: 700;
+    font-size: clamp(54px, 11vw, 132px);
+    line-height: .95; letter-spacing: -0.035em;
+    margin: 0 0 28px;
+  }
+  .hero h1 em { font-style: normal; color: var(--signal); }
+  .hero .lede { font-size: clamp(20px, 2.4vw, 26px); line-height: 1.45; max-width: 30em; margin: 0 0 34px; color: #cfd6e8; }
+  .hero .actions { display: flex; gap: 26px; align-items: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; text-decoration: none; font-weight: 600; font-size: 16px;
+    background: var(--amber); color: #1b1300; padding: 13px 24px; border-radius: 10px;
+    transition: transform .12s ease, box-shadow .12s ease;
+    box-shadow: 0 6px 24px rgba(255,183,3,.22);
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,183,3,.34); }
+  .textlink { font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; transition: border-color .15s, color .15s; }
+  .textlink:hover { border-color: var(--amber); color: var(--amber); }
+
+  .eeg-wrap { position: relative; height: clamp(150px, 22vw, 230px); margin-top: 44px; }
+  #eeg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .eeg-hint { position: absolute; right: 28px; bottom: 6px; font-size: 13px; color: var(--muted); pointer-events: none; }
+
+  /* one orchestrated load-in */
+  @media (prefers-reduced-motion: no-preference) {
+    .rise { opacity: 0; transform: translateY(18px); animation: rise .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    .rise.d1 { animation-delay: .08s; } .rise.d2 { animation-delay: .22s; } .rise.d3 { animation-delay: .38s; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+  }
+
+  /* ---------- sections ---------- */
+  section { padding: clamp(64px, 10vw, 112px) 0 0; }
+  h2 { font-family: var(--display); font-weight: 700; font-size: clamp(32px, 5vw, 46px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 28px; }
+  .about p { max-width: 34em; margin: 0 0 1.1em; color: #cfd6e8; }
+  .about p.aside { color: var(--amber); }
+
+  .care { list-style: none; margin: 34px 0 0; padding: 0; max-width: 40em; }
+  .care li { padding: 14px 0; border-top: 1px solid var(--line); color: #cfd6e8; }
+  .care li:last-child { border-bottom: 1px solid var(--line); }
+
+  /* projects */
+  .proj { display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px 40px; align-items: baseline;
+    padding: 30px 0; border-top: 1px solid var(--line); text-decoration: none; position: relative; }
+  .proj:last-of-type { border-bottom: 1px solid var(--line); }
+  .proj h3 { font-family: var(--display); font-weight: 500; font-size: clamp(24px, 3.2vw, 32px); line-height: 1.2; margin: 0 0 8px; transition: color .15s; }
+  .proj p { margin: 0; color: var(--muted); max-width: 30em; }
+  .proj .meta { color: var(--muted); font-size: 15px; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+  .proj .go { color: var(--amber); font-weight: 600; white-space: nowrap; transition: transform .15s; }
+  .proj:hover h3 { color: var(--amber); }
+  .proj:hover .go { transform: translateX(6px); }
+  .note { margin: 22px 0 0; font-size: 15px; color: var(--muted); max-width: 40em; }
+
+  /* game */
+  .game-frame { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #090c24; height: clamp(420px, 70vh, 580px); }
+  .game-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .game-cap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 14px; font-size: 15px; color: var(--muted); }
+
+  /* tools */
+  .tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 40px; margin: 0; }
+  .tools div { border-top: 1px solid var(--line); padding-top: 14px; }
+  .tools dt { color: var(--muted); font-size: 15px; margin-bottom: 6px; }
+  .tools dd { margin: 0; font-size: 19px; line-height: 1.6; }
+
+  .facts { list-style: none; padding: 0; margin: 0; max-width: 40em; }
+  .facts li { padding: 14px 0; border-top: 1px solid var(--line); color: #cfd6e8; }
+  .facts li:last-child { border-bottom: 1px solid var(--line); }
+
+  .contact a.big { font-family: var(--display); font-weight: 500; font-size: clamp(28px, 5vw, 46px); text-decoration: none; border-bottom: 2px solid var(--amber); line-height: 1.2; transition: color .15s; }
+  .contact a.big:hover { color: var(--amber); }
+  .contact p { color: var(--muted); max-width: 32em; margin: 0 0 22px; }
+
+  footer { margin-top: clamp(80px, 12vw, 130px); border-top: 1px solid var(--line); padding: 26px 0 calc(34px + env(safe-area-inset-bottom)); color: var(--muted); font-size: 14px; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  @media (max-width: 760px) {
+    body { font-size: 17px; }
+    .wrap { padding: 0 20px; }
+    .nav ul { gap: 16px; font-size: 14px; }
+    .proj { grid-template-columns: 1fr; padding: 24px 0; }
+    .tools { grid-template-columns: 1fr; }
+    .eeg-hint { right: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top">vsquare</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a class="l" href="#work">Work</a></li>
+        <li><a class="l" href="#play">Play</a></li>
+        <li><a class="l" href="#about">About</a></li>
+        <li><a class="l" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1 class="rise d1">Hi, I'm <em>vsquare</em>.</h1>
+      <p class="lede rise d2">I build AI that helps people learn. Now I'm taking the same idea into healthcare, with a focus on the brain.</p>
+      <div class="actions rise d3">
+        <a class="btn" href="#work">See my work</a>
+        <a class="textlink" href="#play">Play Neuron Dash</a>
+      </div>
+    </div>
+    <div class="eeg-wrap" aria-hidden="true">
+      <canvas id="eeg"></canvas>
+      <span class="eeg-hint">move your cursor over the signal</span>
+    </div>
+  </div>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p>I like building things that make learning feel less like a chore and more like a conversation. My first big project was a chatbot that listens, summarizes, and quizzes you, a study buddy that never gets tired of repeating the same topic.</p>
+      <p>Right now I'm exploring AI in healthcare, mostly brain and neuro applications: models that could help with early detection, diagnosis support, or personalized neuro-rehabilitation.</p>
+      <p class="aside">I read neuro papers at night and regret my sleep schedule in the morning.</p>
+      <ul class="care">
+        <li>AI that actually helps people learn, not demos that only look good in a pitch deck.</li>
+        <li>Reliable AI for healthcare, where a wrong output isn't just a bug, it's a risk.</li>
+        <li>Clean code, clean architecture, and projects I'd actually use myself.</li>
+        <li>The spot where NLP meets real-world UX.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <h2>Work</h2>
+      <a class="proj" href="https://github.com/vsquare08/AI-chatbot-for-enhanced-learning-through-speech-summarization-and-interactive-quizzing">
+        <div>
+          <h3>AI Chatbot for Enhanced Learning</h3>
+          <p>Speech-based summarization and interactive quizzing for students.</p>
+        </div>
+        <div class="meta"><span>NLP, speech</span><span class="go">View repo &rarr;</span></div>
+      </a>
+      <a class="proj" href="https://github.com/vsquare08/Explainable-Prognostic-modeling-for-Glioma-using-interpretable-AI-and-Machine-Learning-techniques">
+        <div>
+          <h3>Explainable Prognostic Modeling for Glioma</h3>
+          <p>Interpretable AI and ML for Low Grade and High Grade Glioma prognosis.</p>
+        </div>
+        <div class="meta"><span>Explainable AI, healthcare</span><span class="go">View repo &rarr;</span></div>
+      </a>
+      <p class="note">My healthcare work is for research and learning. It is not medical advice or a diagnostic tool.</p>
+    </div>
+  </section>
+
+  <section id="play">
+    <div class="wrap">
+      <h2>Play</h2>
+      <div class="game-frame">
+        <iframe src="game/" title="Neuron Dash, a small reaction game" loading="lazy"></iframe>
+      </div>
+      <div class="game-cap">
+        <span>Neuron Dash. Tap each neuron as its ring closes in. Later taps score more.</span>
+        <a class="textlink" href="game/">Open full screen</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <div class="wrap">
+      <h2>Tools I use</h2>
+      <dl class="tools">
+        <div><dt>Machine learning</dt><dd>Python, PyTorch, Hugging Face, OpenCV</dd></div>
+        <div><dt>Neuroimaging</dt><dd>NiBabel, MedPy</dd></div>
+        <div><dt>Web</dt><dd>React, Node.js</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="facts">
+    <div class="wrap">
+      <h2>Small things about me</h2>
+      <ul class="facts">
+        <li>I debug by talking to the code out loud. It helps more than you'd think.</li>
+        <li>I believe a good README is a love letter to future contributors.</li>
+        <li>I'm optimizing my commit streak and my caffeine intake at the same time.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Say hi</h2>
+      <p>Happy to talk about AI in healthcare, learning tools, or which paper kept you up last night.</p>
+      <a class="big" href="https://github.com/vsquare08">github.com/vsquare08</a>
+      <!-- Add your email or LinkedIn here:
+      <p><a class="textlink" href="mailto:you@example.com">you@example.com</a></p>
+      -->
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="yr">2026</span> vsquare</span>
+    <a class="textlink" href="https://github.com/vsquare08/vsquare08">Source on GitHub</a>
+  </div>
+</footer>
+
+<script>
+(() => {
+  'use strict';
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // ---------- EEG signal in the hero ----------
+  const cv = document.getElementById('eeg');
+  const ctx = cv.getContext('2d');
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let w = 0, h = 0, dpr = 1, running = true;
+
+  const N = 1024, table = Array.from({ length: N }, () => Math.random() * 2 - 1);
+  const noise = (x) => {
+    const i = Math.floor(x), f = x - i, s = f * f * (3 - 2 * f);
+    const a = table[((i % N) + N) % N], b = table[(((i + 1) % N) + N) % N];
+    return a + (b - a) * s;
+  };
+
+  const pointer = { x: -999, power: 0 };
+  let beats = [], nextBeat = 0;
+
+  function size() {
+    const r = cv.getBoundingClientRect();
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = r.width; h = r.height;
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener('resize', size);
+  size();
+
+  const hero = cv.parentElement.parentElement;
+  const setPointer = (e) => {
+    const r = cv.getBoundingClientRect();
+    pointer.x = e.clientX - r.left;
+    pointer.power = 1;
+  };
+  hero.addEventListener('pointermove', setPointer);
+  hero.addEventListener('pointerdown', (e) => { setPointer(e); beats.push({ x: pointer.x }); });
+
+  // heartbeat-shaped spike centred on dx = 0
+  const spike = (dx) =>
+    1.6 * Math.exp(-Math.pow(dx / 6, 2))
+    - 0.5 * Math.exp(-Math.pow((dx - 15) / 9, 2))
+    - 0.35 * Math.exp(-Math.pow((dx + 15) / 9, 2));
+
+  const layers = [
+    { color: '92,225,230', alpha: 1,   width: 2.4, amp: 0.30, speed: 46, seed: 0,  beats: true  },
+    { color: '255,183,3',  alpha: .55, width: 1.6, amp: 0.20, speed: 30, seed: 40, beats: false },
+    { color: '233,237,247',alpha: .16, width: 1.2, amp: 0.26, speed: 62, seed: 90, beats: false }
+  ];
+
+  function draw(t) {
+    ctx.clearRect(0, 0, w, h);
+    const mid = h / 2;
+    for (const L of layers) {
+      const g = ctx.createLinearGradient(0, 0, w, 0);
+      g.addColorStop(0, `rgba(${L.color},0)`);
+      g.addColorStop(.12, `rgba(${L.color},${L.alpha})`);
+      g.addColorStop(.88, `rgba(${L.color},${L.alpha})`);
+      g.addColorStop(1, `rgba(${L.color},0)`);
+      ctx.strokeStyle = g;
+      ctx.lineWidth = L.width;
+      ctx.lineJoin = 'round';
+      ctx.beginPath();
+      const shift = t * L.speed / 1000;
+      for (let x = 0; x <= w; x += 3) {
+        const u = x + shift * 1;
+        let y = Math.sin(u / 58) * 0.35 + Math.sin(u / 23 + L.seed) * 0.2 + noise(u / 15 + L.seed) * 0.28;
+        y *= L.amp * h;
+        if (L.beats) for (const b of beats) y -= spike(x - b.x) * h * 0.30;
+        if (pointer.power > 0.01) {
+          const d = (x - pointer.x) / 80;
+          y += Math.exp(-d * d) * pointer.power * h * 0.22 * Math.sin((x - pointer.x) / 7 - t / 90) * (L.beats ? 1 : 0.5);
+        }
+        if (x === 0) ctx.moveTo(x, mid + y); else ctx.lineTo(x, mid + y);
+      }
+      ctx.stroke();
+    }
+  }
+
+  let last = performance.now();
+  function frame(now) {
+    const dt = Math.min(now - last, 50); last = now;
+    if (running) {
+      nextBeat -= dt;
+      if (nextBeat <= 0) { beats.push({ x: w + 30 }); nextBeat = 2200; }
+      for (const b of beats) b.x -= dt * 0.14;
+      beats = beats.filter(b => b.x > -60);
+      pointer.power *= 0.965;
+      draw(now);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  if (reduce) {
+    beats = [{ x: w * 0.3 }, { x: w * 0.72 }];
+    draw(0);
+    window.addEventListener('resize', () => draw(0));
+  } else {
+    requestAnimationFrame(frame);
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([en]) => { running = en.isIntersecting; }).observe(hero);
+    }
+  }
+})();
+</script>
+</body>
+</html>
