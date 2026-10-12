@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -20,9 +23,21 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark
 
+      # snk draws on a transparent background, so add a dark one
+      - name: Add dark background to snake
+        run: |
+          python3 - <<'PY'
+          import re
+          p = "dist/github-contribution-grid-snake.svg"
+          s = open(p, encoding="utf-8").read()
+          bg = '<rect x="-200" y="-200" width="4000" height="3000" fill="#0d1117"/>'
+          s = re.sub(r"(<svg[^>]*>)", lambda m: m.group(1) + bg, s, count=1)
+          open(p, "w", encoding="utf-8").write(s)
+          PY
+
       - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
