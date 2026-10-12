@@ -95,7 +95,7 @@ And the snake below is eating my commits. Commit more, it eats more.
 
 <!-- TODO: put your real LinkedIn and email here 
 <p>
-  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> -->
+  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>  -->
   <a href="mailto:245502342+vsquare08@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-D44C5E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
