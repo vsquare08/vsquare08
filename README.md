@@ -3,12 +3,12 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=5CE1E6&center=true&vCenter=true&repeat=true&width=520&lines=AI+%2B+Healthcare+Enthusiast;Neuro+AI+Researcher;ML+Developer" alt="AI + Healthcare Enthusiast, Neuro AI Researcher, ML Developer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=0AA5C0&center=true&vCenter=true&repeat=true&width=520&lines=AI+%2B+Healthcare+Enthusiast;Neuro+AI+Researcher;ML+Developer" alt="AI + Healthcare Enthusiast, Neuro AI Researcher, ML Developer" />
 </p>
 
 I build things that make learning feel less like a chore and more like a conversation, and I'm now chasing the same idea into healthcare.
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
 
 ### 🎯 What I'm working on
 
@@ -23,7 +23,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
 - Clean code, clean architecture, and projects I'd actually use myself
 - The spot where NLP meets real-world UX
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
 
 ### 🛠 Tech stack
 
@@ -38,7 +38,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
   <img src="https://img.shields.io/badge/-OpenCV-5C2EE9?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
 </p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
 
 ### 🚀 Projects
 
@@ -57,7 +57,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
   </tr>
 </table>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
 
 ### 🎮 Games
 
@@ -65,22 +65,28 @@ I made a small game for this page, **[Neuron Dash](https://vsquare08.github.io/v
 
 And the snake below is eating my commits. Commit more, it eats more.
 
-![Snake animation](https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/vsquare08/vsquare08/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
 
 ### 📊 Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=0aa5c0&text_color=8b93a7&icon_color=f5a300" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&hide_border=true&bg_color=00000000&title_color=0aa5c0&text_color=8b93a7" alt="Top Languages" />
 </p>
 
 <p>
-  <img src="https://streak-stats.demolab.com?user=vsquare08&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=vsquare08&hide_border=true&background=00000000&ring=f5a300&fire=ff5c7a&currStreakLabel=0aa5c0&currStreakNum=8b93a7&sideLabels=8b93a7&sideNums=8b93a7&dates=8b93a7" alt="Streak Stats" />
 </p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
 
 ### 📌 Fun facts
 
@@ -89,11 +95,9 @@ And the snake below is eating my commits. Commit more, it eats more.
 - I read neuro papers at night and regret my sleep schedule in the morning
 - Currently optimizing my commit streak and my caffeine intake simultaneously
 
----
-
 <!-- Add your contact links here when you're ready: -->
 ### 📫 Let's connect
-<!-- [LinkedIn](https://linkedin.com/in/your-profile) ·  --> 
+<!-- [LinkedIn](https://linkedin.com/in/your-profile) · -->
 [Email](mailto:245502342+vsquare08@users.noreply.github.com)
 
 
