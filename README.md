@@ -23,7 +23,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
 - Clean code, clean architecture, and projects I'd actually use myself
 - The spot where NLP meets real-world UX
 
-<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
+---
 
 ### 🛠 Tech stack
 
@@ -38,7 +38,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
   <img src="https://img.shields.io/badge/-OpenCV-5C2EE9?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
+---
 
 ### 🚀 Projects
 
@@ -57,7 +57,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
   </tr>
 </table>
 
-<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
+---
 
 ### 🎮 Games
 
@@ -73,7 +73,7 @@ And the snake below is eating my commits. Commit more, it eats more.
   </picture>
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
+---
 
 ### 📊 Stats
 
@@ -86,7 +86,7 @@ And the snake below is eating my commits. Commit more, it eats more.
   <img src="https://streak-stats.demolab.com?user=vsquare08&hide_border=true&background=00000000&ring=f5a300&fire=ff5c7a&currStreakLabel=0aa5c0&currStreakNum=8b93a7&sideLabels=8b93a7&sideNums=8b93a7&dates=8b93a7" alt="Streak Stats" />
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/vsquare08/vsquare08/main/pulse.svg" alt="" width="100%" /></p>
+---
 
 ### 📌 Fun facts
 
@@ -97,7 +97,8 @@ And the snake below is eating my commits. Commit more, it eats more.
 
 <!-- Add your contact links here when you're ready: -->
 ### 📫 Let's connect
-<!-- [LinkedIn](https://linkedin.com/in/your-profile) · -->
+<!--[LinkedIn](https://linkedin.com/in/your-profile) · -->
+
 [Email](mailto:245502342+vsquare08@users.noreply.github.com)
 
 
