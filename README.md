@@ -1,7 +1,7 @@
 ## Hey 👋, I'm vsquare
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=0AA5C0&vCenter=true&repeat=true&width=520&lines=AI+%2B+Healthcare+Enthusiast;Neuro+AI+Researcher;ML+Developer" alt="AI + Healthcare Enthusiast, Neuro AI Researcher, ML Developer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=FF7B93&vCenter=true&repeat=true&width=520&lines=AI+%2B+Healthcare+Enthusiast;Neuro+AI+Researcher;ML+Developer" alt="AI + Healthcare Enthusiast, Neuro AI Researcher, ML Developer" />
 </p>
 
 I build things that make learning feel less like a chore and more like a conversation, and I'm now chasing the same idea into healthcare.
@@ -58,8 +58,8 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
 ### 📊 Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=0aa5c0&text_color=8b93a7&icon_color=f5a300" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&hide_border=true&bg_color=00000000&title_color=0aa5c0&text_color=8b93a7" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsquare08&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=ff7b93&text_color=8b93a7&icon_color=ff7b93" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsquare08&layout=compact&hide_border=true&bg_color=00000000&title_color=ff7b93&text_color=8b93a7" alt="Top Languages" />
 </p>
 
 ### 📌 Fun facts
@@ -69,7 +69,7 @@ Before that I built an AI chatbot that listens, summarizes, and quizzes you. A s
 - I read neuro papers at night and regret my sleep schedule in the morning
 - Currently optimizing my commit streak and my caffeine intake simultaneously
 
-<!-- Add your contact links when you're ready:-->
+<!-- Add your contact links when you're ready:
 ### 📫 Let's connect
-<!--[LinkedIn](https://linkedin.com/in/your-profile) · -->
-[Email](mailto:245502342+vsquare08@users.noreply.github.com)
+[LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:you@example.com)
+-->
